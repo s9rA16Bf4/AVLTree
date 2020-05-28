@@ -309,7 +309,7 @@ void AVLTree<T>::recursiveInsert(const T& element, Node<T>* &ParentNode){
 		}
 }
 
-template <typename T> // FIX
+template <typename T>
 void AVLTree<T>::recursiveRemove(const T& element, Node<T>* &ParentNode){
 		if(ParentNode){
 			if(this->find(element)){ // Those the element exist?
